@@ -1,6 +1,6 @@
 module github.com/AntonKhPI2/nim-one-pile
 
-go 1.24.2
+go 1.25.0
 
 require (
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
@@ -10,7 +10,7 @@ require (
 )
 
 require (
-	golang.org/x/net v0.50.0
+	golang.org/x/net v0.58.0
 	gorm.io/driver/sqlite v1.6.0
 )
 
@@ -19,7 +19,7 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/mattn/go-sqlite3 v1.14.22 // indirect
-	golang.org/x/text v0.34.0 // indirect
+	golang.org/x/text v0.41.0 // indirect
 )
 
 replace github.com/AntonKhPI2/nim-backend => .
